@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension>
+  <_name>Twitter CNC</_name>
+  <id>twitter.cnc</id>
+  <dependency type="executable" location="extensions">twitterCNC.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="date" type="string">dateText</param>
+  <param name="name" type="string">nameText</param>
+  <param name="body1" type="string">bodyText1</param>
+  <param name="body2" type="string">bodyText2</param>
+  <param name="body3" type="string">bodyText3</param>
+  <param name="body4" type="string">bodyText4</param>
+  <param name="body5" type="string">bodyText5</param>
+  <effect>
+    <object-type>all</object-type>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">twitterCNC.py</command>
+  </script>
+</inkscape-extension>
